@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <title>Я разработчек данного сайта и я пидр</title>
+    <title>Ссылка на GitHub:https://github.com/Ermak1997/Kinoteat.git</title>
 </head>
 <body>
 <main role="main">
