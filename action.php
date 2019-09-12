@@ -20,6 +20,27 @@
                   <!-- Example row of columns -->
                   <div class="row">
                     <div class="col-md-4">
+                    <?php
+        
+        $host = '127.0.0.1:3306';  
+        $user = 'root';    
+        $pass = ''; 
+        $db_name = 'basa';   
+        $link = mysqli_connect($host, $user, $pass, $db_name); 
+
+  
+        if (!$link) {
+        echo 'Не могу соединиться с БД. Код ошибки: ' . mysqli_connect_errno() . ', ошибка: ' . mysqli_connect_error();
+        exit;
+      } 
+      if(!$link){
+        mysql_select_db($database_basa) or die(mysql_error());
+      }
+      $sql = mysqli_query($link, "select `films`.`name_f` from films where id_genre = 1");
+      While ($result=mysqli_fetch_array($sql))
+      Echo '<br>'.$result['name_f'].'</br>';
+      
+      ?>
                     </div>
 </body>
 </html>
