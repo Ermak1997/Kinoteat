@@ -15,8 +15,9 @@
 <div class="jumbotron">
   <div class="container">
     <h1 class="display-3">Библеотека Фильмов!</h1>
-    <p>Данный сайт хронит фильмотеку разных жанров с которой вы можете ознакомиться, и найти фильм по душе!</p>
+    <p>Данный сайт хранит фильмотеку разных жанров с которой вы можете ознакомиться, и найти фильм по душе!</p>
     <p><a class="btn btn-primary btn-lg" href="all.php" role="button">Все фильмы »</a></p>
+    <p>Ссылка на GitHub:https://github.com/Ermak1997/Kinoteat.git</p>
   </div>
 </div>
 
